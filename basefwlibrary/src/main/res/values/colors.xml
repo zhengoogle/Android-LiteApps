@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF005C</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tab_title_bk_color">#101010</color>
+    <color name="tab_title_tv_color">#dcdcdc</color>
+
+    <!-- 基本颜色
+         http://blog.163.com/smilecatflower_18z/blog/static/192627045201191375530731
+         http://www.cnblogs.com/SkyPrayer/p/3439071.html
+         -->
+    <color name="black">#000000</color>
+    <color name="gray">#808080</color>
+    <color name="light_gray">#D3D3D3</color>
+    <color name="white_smoke">#F5F5F5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="orange">#FFA500</color>
+    <color name="gold">#FFD700</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="green">#008000</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="blue">#0000FF</color>
+    <color name="purple">#800080</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="alpha">#00000000</color>
+    <color name="light_alpha">#20000000</color> <!--  -->
+    <color name="high_alpha">#20000000</color> <!--  -->
+    <color name="middle_alpha">#80000000</color> <!-- 半透明 -->
+    <color name="low_alpha">#D0000000</color> <!-- 半透明 -->
+
+    <color name="bar_red_color">#FF005C</color>
+    <color name="bar_red_pressed_color">#CC004A</color>
+    <color name="bar_white_color">#ffff</color>
+    <color name="bar_grey_color">#bbbb</color>
+    <color name="black_color">#f000</color>
+
+    <!--透明-->
+    <color name="transparent_color">#0000</color>
+
+    <!-- global color -->
+    <color name="app_content_tv_color">#222</color>
+    <color name="app_content_bk_color">#eee</color>
+
+
+
+
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BaseFwLibrary</string>
+
+    <string name="permission_request">Permission request</string>
+    <string name="permission_explanation">Logging to file need the write-external-storage permission.</string>
+    <string name="allow">Allow</string>
+    <string name="go_to_settings">Go to settings</string>
+</resources>

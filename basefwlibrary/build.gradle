@@ -1,0 +1,39 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion "27.0.3"
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true      // 混淆
+            buildConfigField "String", "env", "\"PRO\""
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation files('libs/commons-net-3.6.jar')
+    implementation files('libs/tools.jar')
+    implementation files('libs/nanohttpd-2.2.0.jar')
+    implementation files('libs/gson-2.8.1.jar')
+    implementation files('libs/zxing-core.jar')
+    implementation files('libs/zxing-jar-1.1.jar')
+    implementation files('libs/okhttp-3.9.0.jar')
+    implementation files('libs/okio-1.13.0.jar')
+    compile 'com.android.support:support-v4:27.1.1'
+    compile 'com.android.support:appcompat-v7:27.1.1'
+    compile 'com.android.support:support-v13:27.1.1'
+}
