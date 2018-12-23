@@ -1,2 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.simple.liteapps" />
+    package="com.simple.liteapps">
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true">
+        <activity android:name=".view.HybridApps"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+    </application>
+</manifest>

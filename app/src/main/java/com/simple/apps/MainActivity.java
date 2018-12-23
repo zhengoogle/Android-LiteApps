@@ -1,10 +1,14 @@
 package com.simple.apps;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.simple.apps.base.utils.PathUtils;
+import com.simple.apps.webapps.PluginsTest2Activity;
+import com.simple.apps.webapps.service.hardware.SocInfoActivity;
 import com.simple.fwlibrary.base.comp.FwPermissionActivity;
 import com.simple.fwlibrary.log.xlog.XLog;
+import com.simple.liteapps.view.HybridApps;
 
 
 public class MainActivity extends FwPermissionActivity {
@@ -36,9 +40,11 @@ public class MainActivity extends FwPermissionActivity {
 
     @Override
     public void loadDatas() {
-//        Intent intent = new Intent(this,LogExam1Activity.class);
-//        startActivity(intent);
-//        finish();
+//        Intent intent = new Intent(this,PluginsTest2Activity.class);
+        Intent intent = new Intent(this,HybridApps.class);
+//        Intent intent = new Intent(this,SocInfoActivity.class);
+        startActivity(intent);
+        finish();
 
 //        try {
 //            FwMiniHttpServer.getInstance(8080).start();

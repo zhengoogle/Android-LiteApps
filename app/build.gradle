@@ -6,8 +6,8 @@ android {
 
     defaultConfig {
         applicationId "com.simple.apps"
-        minSdkVersion 15
-        targetSdkVersion 25
+        minSdkVersion 17
+        targetSdkVersion 27
         versionCode 10101
         versionName "1.1.1"
     }
@@ -25,4 +25,5 @@ dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation project(':basefwlibrary')
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation project(':liteapps')
 }

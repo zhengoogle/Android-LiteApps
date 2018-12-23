@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AndLib_BaseFramework.iml" filepath="$PROJECT_DIR$/AndLib_BaseFramework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Android-LiteApps.iml" filepath="$PROJECT_DIR$/Android-LiteApps.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/basefwlibrary/basefwlibrary.iml" filepath="$PROJECT_DIR$/basefwlibrary/basefwlibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/liteapps/liteapps.iml" filepath="$PROJECT_DIR$/liteapps/liteapps.iml" />
