@@ -9,6 +9,7 @@ public class JsParams {
     private String pkg;
     private String service;
     private String method;
+    private String type;
     private String url;
     private String body;
     private Object aContext;
@@ -50,6 +51,14 @@ public class JsParams {
         this.method = method;
     }
 
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
     public String getUrl() {
         return url;
     }
@@ -70,7 +79,7 @@ public class JsParams {
         return aContext;
     }
 
-    public void setaContext(Activity aContext) {
+    public void setaContext(Object aContext) {
         this.aContext = aContext;
     }
 
@@ -78,7 +87,7 @@ public class JsParams {
         return bridgeWebView;
     }
 
-    public void setBridgeWebView(BridgeWebView bridgeWebView) {
+    public void setBridgeWebView(Object bridgeWebView) {
         this.bridgeWebView = bridgeWebView;
     }
 
@@ -97,6 +106,7 @@ public class JsParams {
                 ", pkg='" + pkg + '\'' +
                 ", service='" + service + '\'' +
                 ", method='" + method + '\'' +
+                ", type='" + type + '\'' +
                 ", url='" + url + '\'' +
                 ", body='" + body + '\'' +
                 ", aContext=" + aContext +
